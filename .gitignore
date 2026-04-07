@@ -1,0 +1,36 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables (CRITICAL TO IGNORE)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+client/dist/
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# OS/Editor Configs
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
